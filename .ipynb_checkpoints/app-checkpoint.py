@@ -4,7 +4,10 @@ import h2o
 import pandas as pd
 import json
 import os
+
+os.system('java -version')
 os.system('sudo apt install -y openjdk-8-jdk')
+os.system('java -version')
 
 app = Flask(__name__)
 BestModelId = 'h2o_champion_titanic_propensity_survive_v1_20221127_154332.zip'
